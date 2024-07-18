@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Bootstrap</title>
+</head>
+<body>
+    <div class="m-4">
+    <form action="./Pagina2.html" class="row g-3">
+        <div class="col-md-4">
+          <label for="inputEmail4" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputEmail4" value="Mark" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputPassword4" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputPassword4" value="Ortega" required>
+        </div>
+        <div class="col-md-4">
+            <label for="inputEmail4" class="form-label">Nombre de usuario</label>
+            <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input type="text" class="form-control" id="autoSizingInputGroup" value="marO" aria-describedby="inputGroupPrepend2" required>
+            </div>
+        </div> 
+        <div class="col-6">
+          <label for="inputAddress2" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputAddress2" value="New York" required>
+        </div>
+        <div class="col-md-3">
+          <label for="inputState" class="form-label">Motivo</label>
+          <select id="inputState" class="form-select">
+            <option selected>Deposito</option>
+            <option value="1">Giro</option>
+            <option value="2">Consulta de saldo</option>
+          </select>
+        </div>
+        <div class="col-12">
+            <label for="inputState" class="form-label">¿Desea ver la respuesta en pantalla?</label>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Solicitar</button>
+        </div>
+      </form>
+    </div>
+</body>
+</html>
